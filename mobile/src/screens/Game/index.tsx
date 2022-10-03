@@ -1,4 +1,3 @@
-import React = require("react");
 import { useEffect, useState } from "react";
 import { TouchableOpacity, View, Image, FlatList, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";

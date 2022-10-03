@@ -1,4 +1,3 @@
-import React = require("react");
 import { useState } from "react";
 import {
   Modal,
@@ -29,10 +28,7 @@ export function DuoMatch({ discord, onClose, ...rest }: Props) {
     setIsCoping(true);
     await Clipboard.setStringAsync(discord);
 
-    Alert.alert(
-      "Discord Copiado!",
-      "Usuário copiado para você colocar no Discord."
-    );
+    Alert.alert("Discord Copied!", "User copied to put add Discord.");
     setIsCoping(false);
   }
 
@@ -52,11 +48,11 @@ export function DuoMatch({ discord, onClose, ...rest }: Props) {
 
           <Heading
             title="Let's play!"
-            subtitle="Agora é só começar a jogar!"
+            subtitle="Now let's start playing!"
             style={{ alignItems: "center", marginTop: 24 }}
           />
 
-          <Text style={styles.label}>Adicione no Discord</Text>
+          <Text style={styles.label}>Add on Discord</Text>
 
           <TouchableOpacity
             style={styles.discordButton}

@@ -10,7 +10,6 @@ import { Background } from "../../components/Background";
 import logoImg from "../../assets/logo-nlw-esports.png";
 
 import { styles } from "./styles";
-import React from "react";
 
 export function Home() {
   const [games, setGames] = useState<GameCardProps[]>([]);
