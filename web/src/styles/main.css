@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logoWH {
+  width: 285.03px;
+  height: 160px;
+}
